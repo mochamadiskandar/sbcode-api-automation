@@ -1,4 +1,4 @@
-# API-AUTOMATION-DS4
+# SBCODE-API-AUTOMATION
 
 API Automation for KASIR-AJA using SuperTest, Mocha, Chai, and Mochawesome
 

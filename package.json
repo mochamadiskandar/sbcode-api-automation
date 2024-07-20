@@ -1,0 +1,28 @@
+{
+    "name": "sbcode-api-automation",
+    "version": "1.0.0",
+    "description": "API Automation for KASIR-AJA using SuperTest, Mocha, Chai, and Mochawesome",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo 'Execute API Test'",
+        "report": "mocha --reporter mochawesome"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/mochamadiskandar/sbcode-api-automation.git"
+    },
+    "author": "Mochamad Iskandar",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/mochamadiskandar/sbcode-api-automation/issues"
+    },
+    "homepage": "https://github.com/mochamadiskandar/sbcode-api-automation#readme",
+    "devDependencies": {
+        "chai": "^4.4.1",
+        "chai-json-schema": "^1.5.1",
+        "dayjs": "^1.11.12",
+        "mocha": "^10.6.0",
+        "mochawesome": "^7.1.3",
+        "supertest": "^7.0.0"
+    }
+}
