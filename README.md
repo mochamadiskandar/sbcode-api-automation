@@ -20,7 +20,7 @@ npm install
 ### Run mochawesome report
 
 ```bash
-mocha
+mocha-reports
 ```
 
 ### Boom!! Report is ready
