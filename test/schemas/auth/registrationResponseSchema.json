@@ -1,0 +1,24 @@
+{
+    "type": "object",
+    "required": [],
+    "properties": {
+        "status": {
+            "type": "string"
+        },
+        "message": {
+            "type": "string"
+        },
+        "data": {
+            "type": "object",
+            "required": [],
+            "properties": {
+                "name": {
+                    "type": "string"
+                },
+                "email": {
+                    "type": "string"
+                }
+            }
+        }
+    }
+}
