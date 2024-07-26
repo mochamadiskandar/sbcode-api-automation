@@ -8,10 +8,10 @@ chai.use(require('chai-json-schema'))
 const randomId = require('../../../helpers/randomIdHelper')
 const readJsonSchema = require('../../../helpers/readJsonSchemaHelper')
 
-describe("Test suite for 'Authorization'", () => {
+describe('Registration User', () => {
     const baseUrl = 'https://kasir-api.zelz.my.id'
 
-    it('TC1 - POST/Users ', async () => {
+    it('Positive - Success User Registration', async () => {
         const randomName = `user${randomId(5)}`
         const randomEmail = `${randomName}@mail.com`
         const schema = readJsonSchema('auth', 'registrationResponseSchema.json')
@@ -29,6 +29,7 @@ describe("Test suite for 'Authorization'", () => {
             .set('Accept', 'application/json')
 
         await console.log(response.body)
+
         expect(response.status).to.equal(201)
         expect(response.body.status).to.equal('success')
         expect(response.body).to.be.jsonSchema(schema)

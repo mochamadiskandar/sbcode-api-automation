@@ -5,7 +5,8 @@
     "main": "index.js",
     "scripts": {
         "test": "echo 'Execute API Test'",
-        "mocha-reports": "mocha test/api/**/*.js --reporter mochawesome"
+        "mocha-reports": "mocha test/api/**/*.js --reporter mochawesome",
+        "single": "mocha test/api/**/login.test.js"
     },
     "repository": {
         "type": "git",
