@@ -13,16 +13,20 @@ API Automation for KASIR-AJA using SuperTest, Mocha, Chai, and Mochawesome
 
 ### Installation
 
+run this command in terminal :
+
 ```bash
 npm install
 ```
 
-### Run mochawesome report
+### Mochawesome report
+
+run this command in terminal :
 
 ```bash
-mocha-reports
+npm run mocha-reports
 ```
 
 ### Boom!! Report is ready
 
-Please open the **Report** directory and open file **_.html_** in your browser.
+Please open the **Reports** directory and open file **_.html_** in your browser.
